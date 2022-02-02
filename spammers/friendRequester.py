@@ -14,3 +14,4 @@ def friend_request(token : str , userid : str , userAgent: str , proxies : str) 
 		print(f"{color.GREEN}[+] Friend request sent successfully. {color.RESET_ALL}")
 	else:
 		print(f"{color.RED}[-] Failed to send friend request {color.RESET_ALL} {x.json()}")
+start
